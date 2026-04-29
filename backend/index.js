@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://bestmart-frontend.onrender.com" , "https://bestmart-adminone.onrender.com"],
+ origin:["https://bestmart-frontend.onrender.com" , "https://bestmart-admintwo.onrender.com"],
  credentials:true
 }))
 
